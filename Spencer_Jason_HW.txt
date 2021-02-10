@@ -1,0 +1,74 @@
+
+An error occurred while loading ./spec.
+Failure/Error: __send__(method, file)
+
+LoadError:
+  cannot load such file -- /home/ec2-user/environment/hw-ruby-intro/spec/spec
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:2034:in `load'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:2034:in `load_file_handling_errors'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:1560:in `block in load_spec_files'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:1558:in `each'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/configuration.rb:1558:in `load_spec_files'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:98:in `setup'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:86:in `run'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:71:in `run'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/lib/rspec/core/runner.rb:45:in `invoke'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/gems/rspec-core-3.8.0/exe/rspec:4:in `<top (required)>'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/rspec:23:in `load'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/rspec:23:in `<main>'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:24:in `eval'
+# /home/ec2-user/.rvm/gems/ruby-2.4.0/bin/ruby_executable_hooks:24:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+No examples found.
+
+
+Finished in 0.00025 seconds (files took 0.14224 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+inished in 0.00027 seconds (files took 0.14227 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec spec/>Spencer_Jason_HW.txt
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part1_spec.rb
+78
+13552
+The outcome is: true
+Hello, James Bond
+The Outcome is: true
+true
+SBN=0012121234 Price =$12.00
+............
+
+Finished in 0.00992 seconds (files took 0.08563 seconds to load)
+12 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part2_spec.rb
+78
+13552
+The outcome is: true
+Hello, James Bond
+The Outcome is: true
+true
+SBN=0012121234 Price =$12.00
+..........
+
+Finished in 0.00804 seconds (files took 0.08585 seconds to load)
+10 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ rspec part3_spec.rb
+78
+13552
+The outcome is: true
+Hello, James Bond
+The Outcome is: true
+true
+SBN=0012121234 Price =$12.00
+............
+
+Finished in 0.00883 seconds (files took 0.08854 seconds to load)
+12 examples, 0 failures
+
+ec2-user:~/environment/hw-ruby-intro/spec (master) $ 
